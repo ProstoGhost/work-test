@@ -1,27 +1,43 @@
-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    width: 100%;
-  }
-  
-input[type="text"] {
-    padding: 0.5rem;
-    border-radius: 0.25rem;
-    border: none;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 250px;
-    margin-right: 0.5rem;
-  }
-search-bar{
-    border-radius: 50%;
-  }
-bar-test{
-    border-radius: 50%;
-  }
-search-bar text{
-    color: brown;
-  }
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-bar{ 
+  align-items: center;
+  margin-bottom: 20px;
+  border: solid;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+.search-string{ 
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.div{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card li{
+  list-style-type: none;
+}
+
+
